@@ -1,0 +1,32 @@
+.input-items {
+  margin-top: 16px;
+  width: 100%;
+  padding: 2px;
+}
+.signin-form {
+  margin-top: 10%;
+}
+
+.input-field {
+  width: 80%;
+  background-color: ghostwhite;
+  border: 1px solid gray;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+.signin-one {
+  background-color: ghostwhite;
+  height: 810px;
+}
+
+.form {
+  /* width: 750px; */
+  height: 500px;
+  background-color: white;
+  margin-top: 30%;
+}
+
+.signup-btn {
+  align-items: center;
+}

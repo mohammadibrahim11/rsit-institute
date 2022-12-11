@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg  container">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo03"
@@ -15,37 +15,37 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <Link class="navbar-brand" to="">
-            Navbar
+          <Link className="navbar-brand text-primary fw-bold hover:text-danger" to="">
+            RS IT
           </Link>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/home">
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/home">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/about">
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
                   about
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link " to="/courses">
+              <li className="nav-item">
+                <Link className="nav-link " to="/courses">
                  Courses
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link " to="/contactus">
+              <li className="nav-item">
+                <Link className="nav-link " to="/contactus">
                  Contact us
                 </Link>
               </li>
             </ul>
        
              
-              <button class="btn btn-outline-success" type="submit">
+              <button className="btn btn-outline-danger" type="submit">
               Login
               </button>
            
