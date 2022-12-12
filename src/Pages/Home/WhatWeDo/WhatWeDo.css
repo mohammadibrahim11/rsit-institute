@@ -1,0 +1,23 @@
+.img-container {
+  width: 155px;
+  height: 100px;
+}
+h5{
+    color: #FF3E54;
+}
+.text-vision{
+    font-size: 10px;
+    text-align: start;
+    color: #FF3E54;
+}
+.font{
+    font-size: 12px;
+     margin-top: 5px;
+     margin-bottom: -1px;
+}
+
+.what-we-do-container{
+    background-color: #F7F7F7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

@@ -1,0 +1,13 @@
+.carousel-img{
+    height: 700px;
+
+}
+.home-container{
+    background-color: #FAF0F0;
+}
+.home-button{
+    background-color: #e95d5d;
+}
+.home-button:hover{
+    background-color: #ec4141 !important;
+}

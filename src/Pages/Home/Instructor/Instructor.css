@@ -1,0 +1,17 @@
+.card{
+    border: none ;
+    background-color: #F7F7F7;
+}
+.name{
+    font-size: 15px;
+    color: #FF3E54;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.post{
+    font-size: 10px;
+    color: #0E1F51;
+    text-transform: uppercase;
+    margin-top: -10px;
+
+}
