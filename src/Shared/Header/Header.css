@@ -1,0 +1,7 @@
+.navbar{
+    background-color: #0E1F51;
+}
+.btn-outline-primary:hover{
+  color: #0E1F51 !important;
+  background-color: white;
+}
